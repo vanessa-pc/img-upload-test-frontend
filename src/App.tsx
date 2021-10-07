@@ -1,7 +1,14 @@
-import { greet } from "./utils/greet";
+
+import PostPhoto from './components/PostPhoto';
 
 function App(): JSX.Element {
-  return <h1>{greet("World")}</h1>;
+  return (
+    <>
+    <PostPhoto/>
+    </>
+    );
 }
+
+
 
 export default App;
